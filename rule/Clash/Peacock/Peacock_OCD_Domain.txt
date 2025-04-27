@@ -1,1 +1,1 @@
--+.peacocktv.com
+  - '+.peacocktv.com'

@@ -1,4 +1,4 @@
--ap-oversea-tls.agora.io
--ap-oversea.agora.io
--ap-oversea2.agora.io
--report-oversea.agora.io
+  - 'ap-oversea-tls.agora.io'
+  - 'ap-oversea.agora.io'
+  - 'ap-oversea2.agora.io'
+  - 'report-oversea.agora.io'

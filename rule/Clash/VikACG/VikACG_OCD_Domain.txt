@@ -1,2 +1,2 @@
--+.picjs.xyz
--+.vikacg.com
+  - '+.picjs.xyz'
+  - '+.vikacg.com'
