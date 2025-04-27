@@ -47,12 +47,12 @@ find . -name "*_OCD_*.txt" | while read -r file; do
     if [[ "$first_line" == *"payload"* ]]; then
         sed -i '1d' "$file"
     fi
-    
-    # 删除所有单引号和空格，保留域名中的"-"
+    # 删除单引号和空格
     sed -i "s/'//g; s/[[:space:]]//g" "$file"
-
-    # 处理保留 "-" 但不删除
-    sed -i 's/[^.]*-[^.]*/\1-\2/g' "$file"
+    
+    # 保留域名中的"-"
+    sed -i 's/[a-zA-Z0-9]*-[a-zA-Z0-9]*/\1-\2/g' "$file"
+    sed -i 's/[^.]*-[^.]*/\1\2/g' "$file"
 
     file_dir=$(dirname "$file")
     filename=$(basename "$file" .txt)
