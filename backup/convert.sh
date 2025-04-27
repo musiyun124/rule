@@ -48,7 +48,7 @@ find . -name "*_OCD_*.txt" | while read -r file; do
         sed -i '1d' "$file"
     fi
     # 删除所有单引号、空格
-    sed -i "s/'//g; s/[[:space:]]//g; s/[^[:alnum:]-]//g" "$file"
+    sed -i "s/'//g; s/[[:space:]]//g; s/[^a-zA-Z0-9.-]//g" "$file"
 
     file_dir=$(dirname "$file")
     filename=$(basename "$file" .txt)
