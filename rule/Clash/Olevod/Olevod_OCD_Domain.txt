@@ -1,4 +1,4 @@
-  - '+.haiwaikan.com'
-  - '+.iole.tv'
-  - '+.olehd.com'
-  - '+.olelive.com'
+-+.haiwaikan.com
+-+.iole.tv
+-+.olehd.com
+-+.olelive.com

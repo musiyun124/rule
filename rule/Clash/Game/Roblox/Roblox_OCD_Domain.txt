@@ -1,1 +1,1 @@
-  - '+.rbxcdn.com'
+-+.rbxcdn.com
