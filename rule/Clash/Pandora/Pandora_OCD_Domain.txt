@@ -1,2 +1,2 @@
-+.pcdn.us
-+.pandora.com
+-+.p-cdn.us
+-+.pandora.com

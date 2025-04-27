@@ -47,8 +47,8 @@ find . -name "*_OCD_*.txt" | while read -r file; do
     if [[ "$first_line" == *"payload"* ]]; then
         sed -i '1d' "$file"
     fi
-    # 删除所有单引号、减号和空格
-    sed -i "s/'//g; s/-//g; s/[[:space:]]//g" "$file"
+    # 删除所有单引号、空格
+    sed -i "s/'//g; s/[[:space:]]//g" "$file"
 
     file_dir=$(dirname "$file")
     filename=$(basename "$file" .txt)
