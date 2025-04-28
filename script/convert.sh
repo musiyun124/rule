@@ -46,9 +46,9 @@ find . -name "*_OCD_*.txt" | while read -r file; do
     first_line=$(head -n 1 "$file")    
     if [[ "$first_line" == *"payload"* ]]; then    
         sed -i '1d' "$file"    
-    fi    
+    fi
     
-    sed -i "s/'//g; s/[[:space:]]//g; s/[^a-zA-Z0-9-]-[^a-zA-Z0-9-]/\1\2/g" "$file"    
+    sed -i "s/'//g; s/[[:space:]]//g; s/[^a-zA-Z0-9-]-[^a-zA-Z0-9-]/\1\2/g; s/[^a-zA-Z0-9-]-/\1/g; s/-[^a-zA-Z0-9-]/\2/g" "$file"
     
     file_dir=$(dirname "$file")    
     filename=$(basename "$file" .txt)    
