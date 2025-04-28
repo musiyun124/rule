@@ -1,2 +1,2 @@
--amp-api.fitness.apple.com
--hls-svod.itunes.apple.com
+  - 'amp-api.fitness.apple.com'
+  - 'hls-svod.itunes.apple.com'

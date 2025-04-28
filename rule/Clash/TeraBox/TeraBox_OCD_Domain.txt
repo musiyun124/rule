@@ -1,2 +1,2 @@
--+.terabox.com
--+.teraboxcdn.com
+  - '+.terabox.com'
+  - '+.teraboxcdn.com'

@@ -1,2 +1,2 @@
--+.tap.io
--+.taptap.tw
+  - '+.tap.io'
+  - '+.taptap.tw'

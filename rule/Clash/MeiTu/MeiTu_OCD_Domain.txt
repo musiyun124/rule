@@ -1,4 +1,4 @@
--+.meipai.com
--+.meitu.com
--+.meitudata.com
--+.meitustat.com
+  - '+.meipai.com'
+  - '+.meitu.com'
+  - '+.meitudata.com'
+  - '+.meitustat.com'

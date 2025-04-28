@@ -1,4 +1,4 @@
--+.packagecontrol.io
--+.sublimehq.com
--+.sublimemerge.com
--+.sublimetext.com
+  - '+.packagecontrol.io'
+  - '+.sublimehq.com'
+  - '+.sublimemerge.com'
+  - '+.sublimetext.com'
