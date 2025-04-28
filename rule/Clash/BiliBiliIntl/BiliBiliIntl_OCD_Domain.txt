@@ -1,1 +1,1 @@
-  - '+.bilibili.tv'
+-+.bilibili.tv

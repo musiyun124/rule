@@ -1,2 +1,2 @@
-  - '+.onixhiend.com'
-  - '+.shanling.com'
+-+.onixhiend.com
+-+.shanling.com

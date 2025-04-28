@@ -1,1 +1,1 @@
-  - 'aida.googleapis.com'
+-aida.googleapis.com

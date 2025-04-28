@@ -1,2 +1,2 @@
-  - '+.duolingo.cn'
-  - '+.duolingo.com'
+-+.duolingo.cn
+-+.duolingo.com
