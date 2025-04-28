@@ -1,2 +1,2 @@
--+.nowe.com
--+.nowestatic.com
++.nowe.com
++.nowestatic.com

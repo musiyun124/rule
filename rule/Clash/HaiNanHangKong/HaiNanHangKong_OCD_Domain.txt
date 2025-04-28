@@ -1,5 +1,5 @@
--+.10044.cn
--+.hainanairlines.com
--+.hnacargo.com
--+.hnair.com
--+.hnair.net
++.10044.cn
++.hainanairlines.com
++.hnacargo.com
++.hnair.com
++.hnair.net

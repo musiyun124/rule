@@ -48,7 +48,7 @@ find . -name "*_OCD_*.txt" | while read -r file; do
         sed -i '1d' "$file"    
     fi
     
-    sed -i "s/'//g; s/[[:space:]]//g" "$file"
+    sed -i "s/^[[:space:]]*-[[:space:]]*'//; s/'//g" "$file"
     
     file_dir=$(dirname "$file")    
     filename=$(basename "$file" .txt)    

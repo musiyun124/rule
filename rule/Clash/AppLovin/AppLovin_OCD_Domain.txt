@@ -1,2 +1,2 @@
--+.applovin.com
--+.applvn.com
++.applovin.com
++.applvn.com
