@@ -18,7 +18,7 @@ jobs:
       - name: Add token
         uses: actions/checkout@v4
         with:
-          repository: MoGuangYu/rule
+          repository: GitMetaio/rule
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set variables
